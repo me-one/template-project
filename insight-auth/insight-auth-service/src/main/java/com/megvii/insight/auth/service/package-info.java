@@ -1,0 +1,1 @@
+package com.megvii.insight.auth.service;

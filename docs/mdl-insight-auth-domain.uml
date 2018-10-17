@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>MODULES</ID>
+  <OriginalElement>mdl-insight-auth-domain</OriginalElement>
+  <nodes>
+    <node x="48.75" y="0.0">mdl-insight-auth-domain</node>
+    <node x="0.0" y="80.0">mdl-insight-framework</node>
+    <node x="58.25" y="160.0">mdl-insight-commons</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mdl-insight-framework" target="mdl-insight-commons">
+      <point x="0.0" y="15.0" />
+      <point x="101.0" y="135.0" />
+      <point x="107.5" y="135.0" />
+      <point x="-49.25" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-domain" target="mdl-insight-commons">
+      <point x="54.0" y="15.0" />
+      <point x="210.75" y="55.0" />
+      <point x="212.5" y="55.0" />
+      <point x="212.5" y="135.0" />
+      <point x="206.0" y="135.0" />
+      <point x="49.25" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-domain" target="mdl-insight-framework">
+      <point x="-54.0" y="15.0" />
+      <point x="102.75" y="55.0" />
+      <point x="101.0" y="55.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="132.5" y="95.0" />
+  <SelectedNodes>
+    <node>mdl-insight-auth-domain</node>
+    <node>mdl-insight-commons</node>
+  </SelectedNodes>
+  <Categories />
+</Diagram>
+

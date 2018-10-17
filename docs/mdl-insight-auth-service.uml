@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>MODULES</ID>
+  <OriginalElement>mdl-insight-auth-service</OriginalElement>
+  <nodes>
+    <node x="298.0" y="80.0">mdl-insight-auth-sdk</node>
+    <node x="0.0" y="80.0">mdl-insight-auth-domain</node>
+    <node x="75.0" y="160.0">mdl-insight-framework</node>
+    <node x="77.55555555555554" y="240.0">mdl-insight-commons</node>
+    <node x="150.0" y="0.0">mdl-insight-auth-service</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mdl-insight-auth-service" target="mdl-insight-commons">
+      <point x="26.75" y="15.0" />
+      <point x="283.75" y="55.0" />
+      <point x="287.5" y="55.0" />
+      <point x="287.5" y="215.0" />
+      <point x="241.72222222222223" y="215.0" />
+      <point x="65.66666666666669" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-service" target="mdl-insight-auth-sdk">
+      <point x="80.25" y="15.0" />
+      <point x="337.25" y="55.0" />
+      <point x="394.5" y="55.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-framework" target="mdl-insight-commons">
+      <point x="0.0" y="15.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-domain" target="mdl-insight-framework">
+      <point x="54.0" y="15.0" />
+      <point x="162.0" y="135.0" />
+      <point x="125.5" y="135.0" />
+      <point x="-50.5" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-domain" target="mdl-insight-commons">
+      <point x="-54.0" y="15.0" />
+      <point x="54.0" y="215.0" />
+      <point x="110.38888888888886" y="215.0" />
+      <point x="-65.66666666666669" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-service" target="mdl-insight-framework">
+      <point x="-26.75" y="15.0" />
+      <point x="230.25" y="55.0" />
+      <point x="226.5" y="55.0" />
+      <point x="50.5" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-service" target="mdl-insight-auth-domain">
+      <point x="-80.25" y="15.0" />
+      <point x="176.75" y="55.0" />
+      <point x="108.0" y="55.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="245.5" y="135.0" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+

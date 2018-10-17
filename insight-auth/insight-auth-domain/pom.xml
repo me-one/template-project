@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>insight-dependence-domain</artifactId>
+    <groupId>com.megvii.insight</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../../insight-dependence/insight-dependence-domain/pom.xml</relativePath>
+  </parent>
+  <artifactId>insight-auth-domain</artifactId>
+  <name>insight-auth-domain</name>
+
+  <properties>
+
+    <!-- 自定义属性扩展 -->
+
+  </properties>
+
+  <dependencies>
+
+    <!-- 依赖扩展 -->
+
+    <!-- 框架包依赖 -->
+    <dependency>
+      <groupId>com.megvii.insight</groupId>
+      <artifactId>insight-framework</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <!-- -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+
+    <plugins>
+        <!-- 插件类扩展 -->
+    </plugins>
+
+  </build>
+
+</project>

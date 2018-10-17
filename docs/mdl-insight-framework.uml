@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>MODULES</ID>
+  <OriginalElement>mdl-insight-framework</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">mdl-insight-framework</node>
+    <node x="2.5" y="80.0">mdl-insight-commons</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mdl-insight-framework" target="mdl-insight-commons">
+      <point x="0.0" y="15.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="101.0" y="55.0" />
+  <SelectedNodes>
+    <node>mdl-insight-framework</node>
+    <node>mdl-insight-commons</node>
+  </SelectedNodes>
+  <Categories />
+</Diagram>
+

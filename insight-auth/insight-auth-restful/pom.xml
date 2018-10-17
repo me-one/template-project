@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>insight-dependence-restful</artifactId>
+    <groupId>com.megvii.insight</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../../insight-dependence/insight-dependence-restful/pom.xml</relativePath>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>insight-auth-restful</artifactId>
+
+  <name>insight-auth-restful</name>
+
+  <properties>
+
+    <!-- -->
+
+  </properties>
+
+  <!-- -->
+  <dependencies>
+
+    <!-- -->
+
+    <!-- 当仅依赖SDK时，微服务调用 -->
+    <dependency>
+      <groupId>com.megvii.insight</groupId>
+      <artifactId>insight-auth-sdk</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+    <!-- 当依赖SERVICE时，JAR包依赖 -->
+    <dependency>
+      <groupId>com.megvii.insight</groupId>
+      <artifactId>insight-auth-service</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+
+    <plugins>
+
+      <!-- -->
+
+    </plugins>
+
+  </build>
+
+</project>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>MODULES</ID>
+  <OriginalElement>mdl-insight-auth-rest</OriginalElement>
+  <nodes>
+    <node x="342.3799019607843" y="0.0">mdl-insight-auth-rest</node>
+    <node x="334.58088235294116" y="170.0">mdl-insight-auth-sdk</node>
+    <node x="0.0" y="170.0">mdl-insight-auth-domain</node>
+    <node x="236.99999999999997" y="250.0">mdl-insight-framework</node>
+    <node x="176.83088235294116" y="330.0">mdl-insight-commons</node>
+    <node x="146.24999999999997" y="90.0">mdl-insight-auth-service</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mdl-insight-auth-service" target="mdl-insight-commons">
+      <point x="-26.75" y="15.0" />
+      <point x="226.49999999999997" y="305.0" />
+      <point x="250.70588235294116" y="305.0" />
+      <point x="-24.625" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-service" target="mdl-insight-auth-sdk">
+      <point x="80.25" y="15.0" />
+      <point x="333.5" y="145.0" />
+      <point x="382.83088235294116" y="145.0" />
+      <point x="-48.25" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-rest" target="mdl-insight-auth-service">
+      <point x="-39.0" y="15.0" />
+      <point x="400.8799019607843" y="60.0" />
+      <point x="253.24999999999997" y="60.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-framework" target="mdl-insight-commons">
+      <point x="0.0" y="15.0" />
+      <point x="338.0" y="305.0" />
+      <point x="299.95588235294116" y="305.0" />
+      <point x="24.625" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-rest" target="mdl-insight-commons">
+      <point x="78.0" y="15.0" />
+      <point x="517.8799019607843" y="50.0" />
+      <point x="549.0808823529412" y="50.0" />
+      <point x="549.0808823529412" y="305.0" />
+      <point x="349.20588235294116" y="305.0" />
+      <point x="73.875" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-rest" target="mdl-insight-auth-domain">
+      <point x="-78.0" y="15.0" />
+      <point x="361.8799019607843" y="50.0" />
+      <point x="54.0" y="50.0" />
+      <point x="-54.0" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-domain" target="mdl-insight-commons">
+      <point x="-54.0" y="15.0" />
+      <point x="54.0" y="305.0" />
+      <point x="201.45588235294116" y="305.0" />
+      <point x="-73.875" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-domain" target="mdl-insight-framework">
+      <point x="54.0" y="15.0" />
+      <point x="162.0" y="225.0" />
+      <point x="270.66666666666663" y="225.0" />
+      <point x="-67.33333333333331" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-service" target="mdl-insight-auth-domain">
+      <point x="-80.25" y="15.0" />
+      <point x="172.99999999999997" y="145.0" />
+      <point x="162.0" y="145.0" />
+      <point x="54.0" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-rest" target="mdl-insight-framework">
+      <point x="39.0" y="15.0" />
+      <point x="478.8799019607843" y="60.0" />
+      <point x="538.0808823529412" y="60.0" />
+      <point x="538.0808823529412" y="225.0" />
+      <point x="405.33333333333326" y="225.0" />
+      <point x="67.33333333333331" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-rest" target="mdl-insight-auth-sdk">
+      <point x="0.0" y="15.0" />
+      <point x="439.8799019607843" y="70.0" />
+      <point x="479.33088235294116" y="70.0" />
+      <point x="48.250000000000014" y="-15.0" />
+    </edge>
+    <edge source="mdl-insight-auth-service" target="mdl-insight-framework">
+      <point x="26.75" y="15.0" />
+      <point x="280.0" y="145.0" />
+      <point x="324.08088235294116" y="145.0" />
+      <point x="324.08088235294116" y="225.0" />
+      <point x="338.0" y="225.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="275.0" y="180.0" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+
