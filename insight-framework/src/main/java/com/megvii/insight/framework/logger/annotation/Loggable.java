@@ -28,19 +28,24 @@ public @interface Loggable {
   String name() default "";
 
   /**
-   * Log method before its execution? (default: False)
+   * Log method before its execution? (default: false)
    */
   boolean entered() default false;
 
   /**
-   * Skip log method with its results? (default: False)
+   * Skip log method with its results? (default: false)
    */
   boolean skipResult() default false;
 
   /**
-   * Skip log method with its arguments? (default: False)
+   * Skip log method with its arguments? (default: false)
    */
   boolean skipArgs() default false;
+
+  /**
+   * Skip print stack trace when error? (default: false)
+   */
+  boolean skipStackTrace() default false;
 
   /**
    * List of exceptions that this logger should not log its stack trace. (default: None)

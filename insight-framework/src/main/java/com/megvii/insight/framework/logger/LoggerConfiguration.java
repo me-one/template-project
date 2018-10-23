@@ -23,7 +23,8 @@ public class LoggerConfiguration {
             + "${method.result} in ${method.duration}")
         .error("#${method.name}(${method.args}): "
             + "thrown ${error.class.name}(${error.message}) "
-            + "from ${error.source.class.name}[${error.source.line}] in ${method.duration}")
+            + "from ${error.source.class.name}[${error.source.line}] in ${method.duration} "
+            + "\n${error.trace}")
         .build();
   }
 }
