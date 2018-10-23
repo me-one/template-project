@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
  */
 final class LoggerFormatter {
 
-  private static final String DOTS = "..";
+  private static final String DOTS = "...";
 
   private static final String METHOD_NAME = "method.name";
   private static final String METHOD_ARGS = "method.args";
