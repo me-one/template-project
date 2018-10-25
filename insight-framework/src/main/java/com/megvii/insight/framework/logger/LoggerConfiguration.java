@@ -16,14 +16,14 @@ public class LoggerConfiguration {
         .enter("#${method.name}(${method.args}): "
             + "entered")
         .warnBefore("#${method.name}(${method.args}): "
-            + "in ${method.duration} and still running (max ${method.warn.duration})")
+            + "inquiry ${method.duration} and still running (max ${method.warn.duration})")
         .warnAfter("#${method.name}(${method.args}): "
-            + "${method.result} in ${method.duration} (max ${method.warn.duration})")
+            + "${method.result} inquiry ${method.duration} (max ${method.warn.duration})")
         .after("#${method.name}(${method.args}): "
-            + "${method.result} in ${method.duration}")
+            + "${method.result} inquiry ${method.duration}")
         .error("#${method.name}(${method.args}): "
             + "thrown ${error.class.name}(${error.message}) "
-            + "from ${error.source.class.name}[${error.source.line}] in ${method.duration} "
+            + "from ${error.source.class.name}[${error.source.line}] inquiry ${method.duration} "
             + "\n${error.stacktrace}")
         .build();
   }
