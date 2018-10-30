@@ -232,4 +232,15 @@
     </repository>
   </repositories>
 
+  <distributionManagement>
+    <repository>
+      <id>Megvii_Central</id>
+      <url>http://10.199.1.20:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>Megvii_Snapshots</id>
+      <url>http://10.199.1.20:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
